@@ -12,6 +12,7 @@ function App() {
   }
   return (
     <>
+    <h1>Counter:</h1>
     <button onClick={decrementCount}>-</button>
     <span>{count}</span>
     <button onClick={incrementCount}>+</button>
